@@ -1,0 +1,5 @@
+example
+src
+tests
+webpack.config.js
+.babelrc
