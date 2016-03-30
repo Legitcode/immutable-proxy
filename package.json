@@ -14,7 +14,8 @@
     "babel-register": "^6.7.2",
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
-    "webpack": "^1.12.14"
+    "webpack": "^1.12.14",
+    "immutable": "^3.7.6"
   },
   "scripts": {
     "test": "mocha tests --compilers js:babel-register --recursive --harmony_shipping  ",
