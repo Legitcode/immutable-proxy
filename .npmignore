@@ -3,3 +3,4 @@ src
 tests
 webpack.config.js
 .babelrc
+circle.yml
