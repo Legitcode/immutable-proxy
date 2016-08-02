@@ -1,6 +1,6 @@
 {
   "name": "immutable-proxy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "access immutable values more easily",
   "main": "lib/index.js",
   "peerDependencies": {
@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/zackify/fragment.git"
+    "url": "git+ssh://git@github.com/zackify/immutable-proxy.git"
   },
   "author": "Zach Silveira",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zackify/fragment/issues"
+    "url": "https://github.com/zackify/immutable-proxy/issues"
   },
-  "homepage": "https://github.com/zackify/fragment#readme"
+  "homepage": "https://github.com/zackify/immutable-proxy#readme"
 }
