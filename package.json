@@ -2,7 +2,7 @@
   "name": "immutable-proxy",
   "version": "0.0.1",
   "description": "access immutable values more easily",
-  "main": "index.js",
+  "main": "lib/index.js",
   "peerDependencies": {
     "immutable": "^3.7.6"
   },
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "test": "mocha tests --compilers js:babel-register --recursive --harmony_shipping  ",
-    "build": "babel src/index.js --out-file index.js && npm run build-umd && npm run build-min",
+    "build": "babel src -d lib && npm run build-umd && npm run build-min",
     "build-umd": "NODE_ENV=production webpack src/index.js umd/index.js",
     "build-min": "NODE_ENV=production webpack -p src/index.js umd/index.min.js"
   },
