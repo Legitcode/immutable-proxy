@@ -1,9 +1,9 @@
 import Immutable from 'immutable'
 import List from './list'
-import Map from './map'
+import fromJS from './fromJS'
 
 module.exports = {
   ...Immutable,
   List,
-  Map
+  fromJS,
 }

@@ -4,7 +4,7 @@
   "description": "access immutable values more easily",
   "main": "lib/index.js",
   "peerDependencies": {
-    "immutable": "^3.7.6"
+    "immutable": "^3.8.1"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",
